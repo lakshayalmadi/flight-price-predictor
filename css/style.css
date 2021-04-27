@@ -1,0 +1,14 @@
+.navbar-brand{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html body{
+    background-color:#faf3e0;
+}
+.input-box{
+    background-color: #eabf9f;
+    margin-bottom: 5%;
+    border: 1px solid #b68973;
+    border-radius: 5px;
+    padding: 10px;
+
+}
