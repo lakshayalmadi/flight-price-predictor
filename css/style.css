@@ -3,6 +3,7 @@
 }
 html body{
     background-color:#faf3e0;
+    text-align: center;
 }
 .input-box{
     background-color: #eabf9f;
@@ -10,5 +11,18 @@ html body{
     border: 1px solid #b68973;
     border-radius: 5px;
     padding: 10px;
+    width: 20%;
+}
+.output-box{
+    background-color: #eabf9f;
+    margin-bottom: 5%;
+    border: 1px solid #b68973;
+    border-radius: 5px;
+    padding: 10px;
+    width: 20%;
+}
 
+.container{
+    position:relative;
+    
 }
