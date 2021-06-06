@@ -15,6 +15,7 @@ html body{
 
 }
 .output-box{
+    margin: auto;
     background-color: #eabf9f;
     margin-bottom: 5%;
     border: 1px solid #b68973;
@@ -22,8 +23,6 @@ html body{
     padding: 10px;
     width: 20%;
 }
-
-
 .box-title{
     font-size: larger;
     padding-bottom: 5px;
@@ -33,6 +32,19 @@ html body{
     width:70%
 }
 
+.btn{
+    margin-top: 30px;
+}
+
+footer {
+    color: black;
+    position: fixed;
+    left:0;
+    right:0;
+    bottom: 0;
+    margin-bottom: 15px!important;
+  }
+
  @media screen and (max-width: 576px){
     .input-box {
         width: 80%;
@@ -41,12 +53,12 @@ html body{
     .output-box{
         width: 80%;
     }
-    .my-row{
+    /* .my-row{
         flex-direction: column;
-    }
+    } */
 
 } 
-
+/* 
 @media screen and (min-width: 576px){
     .my-row{
         flex-direction: row;
@@ -59,4 +71,4 @@ html body{
     width:70%;
     display: flex;
     justify-content: center;
-}
+} */
