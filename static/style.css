@@ -1,0 +1,62 @@
+.navbar-brand{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html body{
+    background-color:#faf3e0;
+    text-align: center;
+}
+.input-box{
+    background-color: #eabf9f;
+    margin-bottom: 5%;
+    border: 1px solid #b68973;
+    border-radius: 5px;
+    padding: 20px;
+    width: 90%;
+
+}
+.output-box{
+    background-color: #eabf9f;
+    margin-bottom: 5%;
+    border: 1px solid #b68973;
+    border-radius: 5px;
+    padding: 10px;
+    width: 20%;
+}
+
+
+.box-title{
+    font-size: larger;
+    padding-bottom: 5px;
+}
+
+.input-form{
+    width:70%
+}
+
+ @media screen and (max-width: 576px){
+    .input-box {
+        width: 80%;
+    
+    }
+    .output-box{
+        width: 80%;
+    }
+    .my-row{
+        flex-direction: column;
+    }
+
+} 
+
+@media screen and (min-width: 576px){
+    .my-row{
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+    }
+} 
+
+.my-row{
+    width:70%;
+    display: flex;
+    justify-content: center;
+}
